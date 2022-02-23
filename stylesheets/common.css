@@ -1,1 +1,102 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', 'Times New Roman', Times, serif;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+.left-section {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 30vw;
+  background-image: url('../images/orange_1920.jpg')
+}
+
+.left-section-top {
+  height: 25vh;
+}
+
+
+.left-section-mid {
+  height: 15vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-header {
+  font-family: 'Bebas Neue', 'Times New Roman', Times, serif;
+  color: white;
+  opacity: 1;
+  font-size: 8vh;
+  z-index: 1;
+}
+
+.logo {
+  height: 13vh;
+  z-index: 1;
+}
+
+.logo-background {
+  background-color: black;
+  height: inherit;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: .4;
+}
+
+.left-section-bottom {
+  height: 60vh;
+}
+
+
+
+
+
+
+
+
+.right-section {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 70vw;
+}
+
+.right-section-top {
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.right-section-mid {
+  background-color: yellowgreen;
+  height: 25vh;
+}
+
+.right-section-bottom {
+  height: 35vh;
+}
+
+
+
+.funny-text, .funny-supportive {
+  font-size: 3vh;
+}
+
+.funny-supportive {
+
+}
